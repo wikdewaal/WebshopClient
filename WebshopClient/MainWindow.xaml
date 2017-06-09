@@ -24,7 +24,7 @@
                     <TextBlock x:Name="usernamePasswordShow" Grid.Column="1" HorizontalAlignment="Left" Margin="0,96,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="White" Height="32" Width="101"/>
                     <TextBlock x:Name="loginErrorText" Grid.Column="2" HorizontalAlignment="Left" Margin="0,181,0,0" TextWrapping="Wrap" Text="*Indien inlog error*" VerticalAlignment="Top" Foreground="#FFFF7F7F" Height="32" Width="127"/>
                     <TextBox x:Name="usernameEntry1" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="198,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-                    <Button x:Name="loginButton" Content="Login" Grid.Column="2" HorizontalAlignment="Left" Margin="40,218,0,0" VerticalAlignment="Top" Width="75" Click="registerButton_Copy_Click"/>
+                    <Button x:Name="loginButton" Content="Login" Grid.Column="2" HorizontalAlignment="Left" Margin="40,218,0,0" VerticalAlignment="Top" Width="75" Click="LoginButton_Click"/>
                     <PasswordBox x:Name="passwordEntry" Grid.Column="1" HorizontalAlignment="Left" Margin="198,96,0,0" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
@@ -39,7 +39,7 @@
                     <TextBlock x:Name="youPass" Grid.Column="1" HorizontalAlignment="Left" Margin="57,100,0,0" TextWrapping="Wrap" Text="Your new password is:" VerticalAlignment="Top" Foreground="White"/>
                     <TextBlock x:Name="returnPass" Grid.Column="1" HorizontalAlignment="Left" Margin="215,100,0,0" TextWrapping="Wrap" Text="*PasswordHere*" VerticalAlignment="Top" Foreground="White"/>
                     <CheckBox x:Name="robotMan" Content="I am indeed a robot" Grid.Column="1" HorizontalAlignment="Left" Margin="57,167,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Foreground="White"/>
-                    <Button x:Name="registerButton" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="400,222,0,0" VerticalAlignment="Top" Width="75" Click="registerButton_Click"/>
+                    <Button x:Name="registerButton" Content="Register" Grid.Column="1" HorizontalAlignment="Left" Margin="400,222,0,0" VerticalAlignment="Top" Width="75" Click="RegisterButton_Click"/>
                 </Grid>
             </TabItem>
         </TabControl>

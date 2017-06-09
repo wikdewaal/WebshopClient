@@ -33,15 +33,14 @@ namespace WebshopClient
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             //Hier moet eerst nog de methode die login gegevens verifiërd in.
-            StoreWindow win2 = new StoreWindow();
-            win2.Show();
+            Window1 win1 = new Window1();
+            win1.Show();
             this.Close();
         }
 
-        private void usernamePassword_TextChanged(object sender, TextChangedEventArgs e)
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
-        
     }
 }
